@@ -131,13 +131,29 @@
             <div class="mb-4">
               <h3>Hound - Family Pet Care</h3>
               <p>
-               Motivation of the project
+               The motivation for Hound started about four years ago.
+               I had just transfered high schools and was looking for a way to continue my computer science education.
+               I had already taken AP CS and my new high school didn't have a course difficult enough for me.
+               Therefore, I proposed an independent study, where I continued my education by myself.
+               In order to have something to work on, I proposed that I self-teach myself all the technologies required to built an iOS app.
+               This app solve an issue our family was experiencing: our new puppy was still having accident because we had difficulty tracking who took her out last.
               </p>
               <p>
               Functional requirements/what the project does
+              In its current state, Hound has solved the issue I set out to remedy.
+              Hound allows for a whole family to collaborate on their dogs care.
+              It allows for them to create reminders to never forget to take care of their dog (potty, feed, walk...)
+              Additionally, it has an intricate logging system to both track who took care of the dog and when,
+              sending notifications to all family members when someone lends a helping hand to the dogs.
               </p>
               <p>
-              Project design
+              To be able to accomplish what it does, Hound has three primary components:
+              - An iOS app
+              - A Node.js server
+              - A MariaDB database
+              The app is user-facing, allowing for the viewing and input of data.
+              The server manages all requests from the app, verifying identities, processing data, interacting with the database, and sending out notifications
+              The database contains all of the user, family, and dog data, storing it in the cloud to allow for seamless synchronization between multipe devices
               </p>
               <p>
               Implementation
