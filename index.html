@@ -1,33 +1,35 @@
 <!doctype html>
 <html lang="en">
-  <head>
 
-    <title>Jonathan's Website</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+
+  <title>Jonathan's Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-    <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/aos.css">
 
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 
   <div id="overlayer"></div>
@@ -71,7 +73,8 @@
           </div>
 
 
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#"
+              class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
 
         </div>
       </div>
@@ -92,20 +95,20 @@
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
               <p>
-               Student at the University of San Diego
+                Student at the University of San Diego
               </p>
               <p>
                 Computer Science Major with a Concentration in Data Science and AI<br>
                 Finance Minor
-               </p>
-               <p>
-                Hobbies: Hiking  |  Backpacking  |  Gym
-               </p>
+              </p>
+              <p>
+                Hobbies: Hiking | Backpacking | Gym
+              </p>
 
 
             </div>
 
-            
+
 
           </div>
         </div>
@@ -123,49 +126,56 @@
         </div>
         <div class="row">
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-          
+
             <img src="images/paw.png" alt="" class="img-fluid">
-          
+
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
-              <h3>Hound - Family Pet Care</h3>
+              <h3>Transportation Routing System</h3>
               <p>
-                The motivation for Hound started about four years ago.
-                I had just transferred to a different high school and was looking for a way to continue my computer science education.
-                I had already taken AP CS, and my new high school didn't offer a course that was advanced enough for me.
-                Therefore, I proposed an independent study, where I continued my education.
-                To have something to work on, I proposed that I self-teach myself all the technologies required to build an iOS app.
-                This app solved an issue our family was experiencing: our new puppy was still having an accident because we had difficulty tracking who took her out last.
+                It's always been fascinating how routing algorithms take vast maps and instantly generate the
+                quickest way to traverse them. I don't know how to do complex path-finding algorithms; however, I know
+                how to make object-based programs. Thus, it'd be interesting to build a simulator customized to a
+                more unique scenario with more parameters. An expansion and modification of sorts onto the elevator
+                project
               </p>
               <p>
-                Hound has solved the issue I set out to remedy.
-                It allows for a whole family to collaborate on their dog's care.
-                It allows them to create reminders to always remember to take care of their dog while incorporating an intricate logging system to track who took care of the dog and when,
-                sending notifications to all family members when someone lends a helping hand to the dogs.
+                When the program runs, the user must input a list of cargo that needs to be delivered through any of the
+                given routes (which they also provide). Many different vehicles can be chosen, each with
+                its own benefits and drawbacks. Given these constraints, the program then attempts to assign the cargo
+                to specific combinations of cars and routes (e.g., the cheapest option or the quickest option). It then
+                repeatedly simulates the motion of these vehicles until they deliver all of the cargo.
               </p>
               <p>
-                To be able to accomplish what it does, Hound has three primary components:<br>
-                - iOS app<br>
-                - Node.js server<br>
-                - MariaDB database<br>
-                The app allows users to view and modify data.<br>
-                The server manages all requests from the app, verifying identities, processing data, interacting with the database, and sending out notifications.<br>
-                The database contains all the user, family, and dog data, storing it in the cloud to allow seamless synchronization between multiple devices.<br>
+                We decided to continue with Java as we were all familiar with it. We initially started with a
+                different program, one that involved socket communication. It was a fascinating idea; however, some of us
+                lacked experience (me personally) on it, and it didn't prove easy to test as it involved running multiple instances /
+                servers for communications between them. Thus, we pivoted to something we were interested in as well and
+                more familiar with, which was another simulator project.
               </p>
               <p>
-                To view Hound's source code, <a href="https://github.com/jxakellis">visit my GitHub</a> 
+                I drove a lot of the over-arching template for the project. I wanted to change it from sockets as I was
+                unable to help with that, and I wanted to be able to provide more input. Thus, I generally laid out the
+                project.
+                I created the requirements for what parts of the code should do and made some of it. We all
+                collaborated to produce the project and make it what it is.
+                It was challenging to brainstorm exciting ideas for the project. I wanted something that was able to be
+                tested well (e.g., something without a GUI, as that is quite difficult to test) while still being
+                interactive for the user.
+                <br>
+                <a href="https://github.com/usd-cs/comp305-final-project-sp24-s01s02-teamsocket">Visit the GitHub!</a>
               </p>
 
 
             </div>
 
-            
+
 
           </div>
         </div>
       </div>
-      
+
 
     </section>
 
@@ -179,21 +189,25 @@
         </div>
         <div class="row mb-5 text-center">
 
-
-
-          
-          
           <div class="col-md-12 text-center">
             <p class="mb-0">
               <span class="icon-mail_outline d-block h4 text-primary"></span>
               <span>jxakellis@sandiego.edu</span>
             </p>
           </div>
-          
+
           <div class="col-md-12 text-center">
             <p class="mb-0">
               <span class="icon-graduation-cap d-block h4 text-primary"></span>
               <a href="https://www.linkedin.com/in/jxakellis/">LinkedIn</a>
+            </p>
+          </div>
+
+          <div class="col-md-12 text-center">
+            <p class="mb-0">
+              <span class="icon-briefcase d-block h4 text-primary"></span>
+              <a
+                href="https://docs.google.com/document/d/17o1mRKsaQO0zOnl02Tvjl2Obr00VcSfGfZdjP9gsvMg/edit?usp=sharing">Resume</a>
             </p>
           </div>
         </div>
@@ -205,14 +219,16 @@
     <footer class="site-footer">
       <div class="container">
 
-          <div class="col-md-12 text-center">
-            <p>
+        <div class="col-md-12 text-center">
+          <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website builds on a template by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | This website builds on a
+            template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
+          </p>
 
-          </div>
+        </div>
 
 
       </div>
@@ -236,5 +252,6 @@
 
   <script src="js/main.js"></script>
 
-  </body>
+</body>
+
 </html>
