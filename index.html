@@ -1,267 +1,152 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-
-  <title>Jonathan's Website</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jonathan Xakellis – Developer. Builder. Organizer.</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-  <link rel="stylesheet" href="css/aos.css">
-
   <link rel="stylesheet" href="css/style.css">
-
+  <style>
+    body { max-width: 750px; margin: 0 auto; background: #f9f9fb; color: #222; font-family: 'Open Sans', sans-serif; }
+    header, section, footer { margin-bottom: 2.5em; }
+    header { text-align: center; margin-top: 2em; }
+    h1 { font-size: 2.7em; margin-bottom: 0.15em; }
+    h2 { font-size: 1.5em; border-bottom: 1px solid #ddd; padding-bottom: 0.15em; margin-top: 1.7em; }
+    nav { margin-bottom: 1.5em; }
+    nav a { margin: 0 1em; text-decoration: none; color: #1976d2; font-weight: 600; }
+    .screenshot { width: 100%; max-width: 350px; border-radius: 16px; margin: 18px auto; display: block; }
+    ul, ol { padding-left: 1.2em; }
+    section { background: #fff; border-radius: 18px; padding: 2em 2em 1em 2em; box-shadow: 0 2px 24px #0001; }
+    @media (max-width: 650px) { body { padding: 0 5px; } section { padding: 1.2em 0.8em; } }
+    .tagline { font-size: 1.15em; margin-bottom: 1em; color: #555; }
+    .quick-links a { margin-right: 1em; }
+    footer { text-align: center; color: #888; font-size: 0.95em; margin-bottom: 1.5em; }
+  </style>
 </head>
-
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-
-  <div id="overlayer"></div>
-  <div class="loader">
-    <div class="spinner-border text-primary" role="status">
-      <span class="sr-only">Loading...</span>
+<body>
+  <header>
+    <h1>Jonathan Xakellis</h1>
+    <div class="tagline">
+      Developer • Product Builder • AI & Data Science Enthusiast
     </div>
-  </div>
-
-
-  <div class="site-wrap">
-
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#hound">Hound App</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#contact">Connect</a>
+    </nav>
+    <div class="quick-links">
+      <a href="https://apps.apple.com/us/app/hound-family-pet-care/id1564604025">App Store</a>
+      <a href="https://www.linkedin.com/in/jxakellis/">LinkedIn</a>
+      <a href="https://github.com/jxakellis">GitHub</a>
+      <a href="https://docs.google.com/document/d/17o1mRKsaQO0zOnl02Tvjl2Obr00VcSfGfZdjP9gsvMg">Résumé</a>
     </div>
+  </header>
 
+  <section id="about">
+    <h2>👋 About Me</h2>
+    <p>
+      Hi, I’m Jonathan—a passionate developer, builder, and lifelong problem solver based in San Diego, CA. I study Computer Science (Data Science & AI concentration, Finance minor) at the University of San Diego.
+    </p>
+    <p>
+      Whether it’s creating apps to make everyday life easier, teaching others to code, or building tools for better human–computer interaction, I thrive on technical challenges that deliver real impact. Outside of coding, you’ll find me hiking, backpacking, or experimenting with home automation.
+    </p>
+  </section>
 
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+  <section id="hound">
+    <h2>🐶 Hound – Family Pet Care App</h2>
+    <img src="images/hound-screenshot.png" alt="Hound App Screenshot" class="screenshot">
+    <p>
+      <b>Hound</b> is my proudest project: a full-stack iOS app that helps families coordinate, log, and share pet care—feeding, meds, walks, reminders, and more.
+    </p>
+    <ul>
+      <li>Solo founder & full-stack developer (iOS, backend, DevOps, UX)</li>
+      <li>5,000+ active users and growing, $300/mo recurring subscriptions</li>
+      <li>4.6★ rating on the App Store (<a href="https://apps.apple.com/us/app/hound-family-pet-care/id1564604025">see reviews</a>)</li>
+      <li>Built on Node.js, MySQL, AWS (EC2/RDS), CloudFlare, and a robust Swift client</li>
+      <li>Designed for real families: collaborative accounts, smart reminders, and pet care logs that actually work</li>
+    </ul>
+    <p>
+      <a href="https://apps.apple.com/us/app/hound-family-pet-care/id1564604025"><b>Download Hound on the App Store →</b></a>
+    </p>
+  </section>
 
-      <div class="container">
-        <div class="row align-items-center">
+  <section id="projects">
+    <h2>🛠️ Selected Projects</h2>
+    <ul>
+      <li>
+        <b>Facial Emotion Recognition (FER) Neural Network (USD)</b><br>
+        Designed and implemented a real-time facial emotion classifier using CNNs on 35,000+ images, achieving SOTA performance and robust results on noisy/live video data.
+      </li>
+      <li>
+        <b>API & Front-End Migration (Common Goal Systems)</b><br>
+        Led the migration of legacy education management systems to modern Angular and C#/.NET APIs, enabling secure and accessible user experiences.
+      </li>
+      <li>
+        <b>Real-Time Data Platform (Bazefield – Renewables)</b><br>
+        Worked as a Product Manager Intern on user research, feature design, and cloud software implementation for energy data visualization tools used by global customers.
+      </li>
+      <li>
+        <b>1-on-1 Tech Lessons (The Merion)</b><br>
+        Founded and delivered over 100 personalized digital literacy lessons to seniors in my community, bridging the generational tech gap.
+      </li>
+    </ul>
+  </section>
 
-          <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="#" class="h2 mb-0">Jonathan Xakellis</a></h1>
-          </div>
+  <section id="experience">
+    <h2>💼 Experience</h2>
+    <ul>
+      <li>
+        <b>Product Manager Intern – Bazefield (Renewables)</b> <span style="color:#888;">San Diego, CA • Jan 2025–Present</span><br>
+        User research, feature development, and coordination of software projects for industrial data platforms powering the green energy revolution.
+      </li>
+      <li>
+        <b>Software Engineer Intern – Common Goal Systems</b> <span style="color:#888;">Chicago, IL • Jun 2024–Dec 2024</span><br>
+        Full-stack web development: migrated legacy apps to Angular/C#, improved SDLC efficiency, and collaborated across QA and product teams.
+      </li>
+      <li>
+        <b>Lab Assistant (USD CS Dept)</b> <span style="color:#888;">Sep 2024–Dec 2024</span><br>
+        Mentored 28 students in advanced computational modeling, boosting grades and strengthening real-world software skills.
+      </li>
+      <li>
+        <b>Client Engagement Specialist – Kraken Digital Asset Exchange</b> <span style="color:#888;">Remote • May 2021–Jun 2022</span><br>
+        Improved NLP-powered chatbots, resolved high-volume customer inquiries, and contributed to industry-leading user experience at the world’s top crypto exchange.
+      </li>
+    </ul>
+  </section>
 
-          <div class="col-12 col-md-10 d-none d-xl-block">
-            <nav class="site-navigation position-relative text-right" role="navigation">
+  <section id="leadership">
+    <h2>🚀 Leadership & Community</h2>
+    <ul>
+      <li>
+        <b>President – ToreroAI Club, USD</b><br>
+        Founder & organizer of USD’s premier AI & machine learning student group; host events, workshops, and hackathons for 20+ active members.
+      </li>
+      <li>
+        <b>Sigma Phi Epsilon, Cal Beta Beta</b><br>
+        Helped raise $45,000+ for local charities by organizing fundraising events and recruiting volunteers.
+      </li>
+      <li>
+        <b>Volunteer, The Merion</b><br>
+        Launched and taught 100+ hours of tech literacy workshops for senior citizens in Chicago.
+      </li>
+    </ul>
+  </section>
 
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#about-section" class="nav-link">About</a></li>
-                <li><a href="#projects-section" class="nav-link">Projects</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
+  <section id="contact">
+    <h2>📬 Connect</h2>
+    <ul>
+      <li>Email: <a href="mailto:jxakellis@sandiego.edu">jxakellis@sandiego.edu</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/jxakellis/">linkedin.com/in/jxakellis</a></li>
+      <li>GitHub: <a href="https://github.com/jxakellis">github.com/jxakellis</a></li>
+      <li>Résumé: <a href="https://docs.google.com/document/d/17o1mRKsaQO0zOnl02Tvjl2Obr00VcSfGfZdjP9gsvMg">Google Doc</a></li>
+    </ul>
+  </section>
 
-
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#"
-              class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
-
-        </div>
-      </div>
-
-    </header>
-
-
-
-
-    <div class="site-section cta-big-image border-bottom" id="about-section">
-      <div class="container" style="padding-top: 30px">
-        <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-
-            <img src="images/monkey.jpeg" alt="" class="img-fluid">
-
-          </div>
-          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-            <div class="mb-4">
-              <p>
-                Student at the University of San Diego
-              </p>
-              <p>
-                Computer Science Major with a Concentration in Data Science and AI<br>
-                Finance Minor
-              </p>
-              <p>
-                Hobbies: Hiking | Backpacking | Gym
-              </p>
-
-
-            </div>
-
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-    <section class="site-section border-bottom" id="projects-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-8 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Projects</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-
-            <img src="images/UML.png" alt="" class="img-fluid">
-
-          </div>
-          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-            <div class="mb-4">
-              <h3>Transportation Routing System</h3>
-              <p>
-                It's always been fascinating how routing algorithms take vast maps and instantly generate the
-                quickest way to traverse them. I don't know how to do complex path-finding algorithms; however, I know
-                how to make object-based programs. Thus, it'd be interesting to build a simulator customized to a
-                more unique scenario with more parameters. In a way, it's an expansion and modification onto the
-                elevator simulator
-                project.
-              </p>
-              <p>
-                When the transportation simulator runs, the user must input a list of cargo that needs to be delivered
-                through any of the
-                given routes (which they also provide). Many different vehicles can be chosen, each with
-                its own benefits and drawbacks. For example: A semi-truck can't go through cities and has a road tax,
-                but it can
-                carry a lot of cargo. A bicycle is slow and has to take breaks often, but it has a low operating cost.
-                Given these constraints, the program then uses different routers to assign the
-                cargo
-                to specific combinations of cars and routes (e.g., the cheapest option or the quickest option). It then
-                repeatedly simulates the motion of these vehicles until they deliver all of the cargo.
-              </p>
-              <p>
-                We decided to continue with Java as we were all familiar with it. We initially started with a
-                different program, one that involved socket communication. It was a fascinating idea; however, some of
-                us (me personally) lacked experience on it, and it didn't prove easy to test as it involved running
-                multiple instances /
-                servers for communications between them. There was no easy centralized way to run the entire program at
-                once. Thus, we pivoted to something we were interested in as well and
-                more familiar with, which was another simulator project. It was a bit of a disappointment and left us
-                with less time to craft up a complex project.
-              </p>
-              <p>
-                I drove a lot of the over-arching template for the project. I wanted to change it from sockets as I was
-                unable to help with that. Eli and Thomas had both taken networking, but I haven't. Thus, I guided the
-                transition to a different project and laid out the general plan.
-                I created the requirements for what parts of the code should do and coded up some of it. We all
-                collaborated to produce the project and make it what it is.
-                It was challenging to brainstorm exciting ideas for the project. I wanted something that was able to be
-                tested well (e.g., something without a GUI, as that is quite difficult to test) while still being
-                interactive for the user. This elimated many different game ideas as they'd have to be console-based.
-                <br>
-                <br>
-                <a href="https://github.com/usd-cs/comp305-final-project-sp24-s01s02-teamsocket">Visit the GitHub!</a>
-              </p>
-
-
-            </div>
-
-
-
-          </div>
-        </div>
-      </div>
-
-
-    </section>
-
-
-    <section class="site-section" id="contact-section" data-aos="fade">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Contact Me</h2>
-          </div>
-        </div>
-        <div class="row mb-5 text-center">
-
-          <div class="col-md-12 text-center">
-            <p class="mb-0">
-              <span class="icon-mail_outline d-block h4 text-primary"></span>
-              <span>jxakellis@sandiego.edu</span>
-            </p>
-          </div>
-
-          <div class="col-md-12 text-center">
-            <p class="mb-0">
-              <span class="icon-graduation-cap d-block h4 text-primary"></span>
-              <a href="https://www.linkedin.com/in/jxakellis/">LinkedIn</a>
-            </p>
-          </div>
-
-          <div class="col-md-12 text-center">
-            <p class="mb-0">
-              <span class="icon-briefcase d-block h4 text-primary"></span>
-              <a
-                href="https://docs.google.com/document/d/17o1mRKsaQO0zOnl02Tvjl2Obr00VcSfGfZdjP9gsvMg/edit?usp=sharing">Resume</a>
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
-    <footer class="site-footer">
-      <div class="container">
-
-        <div class="col-md-12 text-center">
-          <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;
-            <script>document.write(new Date().getFullYear());</script> All rights reserved | This website builds on a
-            template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          </p>
-
-        </div>
-
-
-      </div>
-    </footer>
-
-  </div> <!-- .site-wrap -->
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-  <script src="js/collapsable.js"></script>
-
-
-  <script src="js/main.js"></script>
-
+  <footer>
+    <p>&copy; 2025 Jonathan Xakellis. Crafted with ☕ + Swift + a dash of adventure.</p>
+  </footer>
 </body>
-
 </html>
